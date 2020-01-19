@@ -57,7 +57,7 @@ public class GooglePlayActivity extends AppCompatActivity implements View.OnClic
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        packageName = getPackageName();
+        packageName = Constant.packageName;
         initView();
         initHandler();
         //建立连接
